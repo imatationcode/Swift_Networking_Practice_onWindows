@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Networking_Practice}",
+            "name": "Debug Networking_Practice",
+            "target": "Networking_Practice",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug Networking_Practice"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Networking_Practice}",
+            "name": "Release Networking_Practice",
+            "target": "Networking_Practice",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release Networking_Practice"
+        }
+    ]
+}
