@@ -36,6 +36,6 @@ struct Networking_Practice {
         }
 
         // Keep the program alive (VERY IMPORTANT for console apps)
-        RunLoop.main.run()
+        RunLoop.main.run()// program won't exit automatically
     }
 }
